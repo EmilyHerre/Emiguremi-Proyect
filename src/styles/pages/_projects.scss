@@ -1,0 +1,15 @@
+.project-screen-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: center;
+}
+
+
+.projects {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 3rem;
+}

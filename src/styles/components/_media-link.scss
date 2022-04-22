@@ -1,0 +1,15 @@
+
+.media-link{
+    display: flex;
+  align-items: center;
+  gap : 1rem;
+
+    a  {
+        font-family: $inria-Serif;
+        color : var(--brown);
+        font-size: 1.5rem;
+        text-decoration: none;
+
+    }
+
+}

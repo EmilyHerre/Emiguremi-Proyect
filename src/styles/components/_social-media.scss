@@ -1,0 +1,48 @@
+.social-background {
+    border-radius: 10px;
+    min-width: 140px;
+    max-width: 190px;
+    height: 400px;
+    display: flex;
+    flex: 1;
+
+
+    &>* {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+.social-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    &__links {
+
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+    }
+}
+
+.contactame-btn {
+    background: var(--pink);
+    border: 1px solid var(--pink);
+    color: #FFFFFF;
+    font-size: 2rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 160px;
+    height: 37.3px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-family: $julius-sans ;
+    &:hover {
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,19 @@
+.business-logo {
+
+    position: relative;
+
+    .business-name {
+        border-left: 2px solid var(--brown);
+        border-bottom: 2px solid var(--brown);
+        padding: 10px;
+    }
+
+    .slogan {
+
+        margin-top: 10px;
+        position: absolute;
+        right: 0;
+
+    }
+
+}

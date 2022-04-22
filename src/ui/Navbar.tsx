@@ -1,6 +1,4 @@
 import { NavLink, Link } from 'react-router-dom';
-import '../reset.css'
-import '../navbar.css';
 
 export const Navbar = () => {
     return (

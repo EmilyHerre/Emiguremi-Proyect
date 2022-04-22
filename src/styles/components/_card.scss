@@ -1,0 +1,42 @@
+.card {
+
+    background-color: var(--beige);
+    min-width: 200px;
+    max-width: 500px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3rem;
+
+    .card-header {
+        
+        display: flex;
+        height: 20px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+        & > * {
+            flex: 1;
+        }
+
+        .pink{
+            background-color: var(--white-pink);
+         
+        }
+        
+        .yellow{
+            background-color: var(--dusty-yellow);
+        
+        }
+        
+        .blue{
+            background-color: var(--blue);
+         
+        } 
+    }
+
+    .card-title {
+        margin: 2rem 0;
+    }
+}
