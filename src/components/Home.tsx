@@ -10,7 +10,7 @@ import { ProjectList } from './Projects/ProjectList';
 export const Home = () => {
   return (
     <>
-    dkaodao
+   
       <div className='section'>
 
         <div className='main-section' >
