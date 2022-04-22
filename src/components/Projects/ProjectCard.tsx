@@ -1,6 +1,4 @@
 import { IProject } from '../../data/Projects';
-import InfoIcon from '../../assets/icons/info-icon.svg';
-
 
 export const ProjectCard = ({
     id,
@@ -8,7 +6,7 @@ export const ProjectCard = ({
     urlImg,
     description }: IProject) => {
 
-    const imagePath = `assets/products-img/${urlImg}.jpg`
+    
 
     return (
         <>
@@ -16,7 +14,7 @@ export const ProjectCard = ({
 
                 <div className='body-card'>
                     <div className='top'>
-                        <img className='project-img' src={urlImg} alt='img' />
+                        <img className='project-img' src={urlImg} alt={name} />
                     </div>
                     <div className='bottom'>
                         <h3>{name}</h3>

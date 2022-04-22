@@ -10,7 +10,7 @@ export const MediaLink = ({ icon, userName, path }: Props) => {
         <div className='media-link'>
 
             <img src={icon} alt='icon' />
-            <a  href={path} target="_blank" rel="noreferrer noopener">
+            <a href={path} target="_blank" rel="noreferrer noopener">
                 {userName}
             </a>
 
